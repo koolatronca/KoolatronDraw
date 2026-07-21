@@ -1,21 +1,21 @@
-# Kelly's Drawing Studio
+# Kelly's Dual Drawing Contest
 
-A full-screen touchscreen drawing app for a robot, tablet, or kiosk.
+## New challenge choices
+- Children's Colour-by-Number
+- Adult Appliance Design
 
-## Features
-- Eight colours
-- Three brush sizes
-- Eraser
-- Undo
-- Clear canvas
-- Emoji stamps
-- Touchscreen support
-- Runs entirely in the browser
+Both challenges last 2 minutes.
 
-## Host on GitHub Pages
-1. Create a new GitHub repository.
-2. Upload `index.html`.
-3. Go to **Settings → Pages**.
-4. Choose **Deploy from a branch**.
-5. Select the `main` branch and `/root`.
-6. Open the GitHub Pages link on the robot.
+## Google Sheet update required
+Replace your current Apps Script code with the included `Code.gs`, save it, then update the deployment:
+
+1. Apps Script → Deploy → Manage deployments
+2. Click the pencil/edit icon
+3. Under Version, select **New version**
+4. Click **Deploy**
+
+This adds a `Challenge Type` column to the Google Sheet and records which challenge each person completed.
+
+## GitHub
+Replace the existing repository `index.html` with the included `index.html`.
+Keep the filename exactly `index.html`.
